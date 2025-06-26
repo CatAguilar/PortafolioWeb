@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7faf6; /* rojo tailwind bg-red-500 */
+  color: rgb(122, 29, 29);
+  font-family: Georgia ;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: rgb(71, 71, 74);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #3b82f6; /* azul tailwind hover:text-blue-500 */
+}
